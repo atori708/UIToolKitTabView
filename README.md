@@ -25,8 +25,8 @@ UIToolKitの練習として、タブを実装してみたサンプルです。
             tab.CloneTree(rootVisualElement);
             var tabView = rootVisualElement.Q<TabView>();
 
-            var tab1Content = new TabContent1(AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("[Tab1で表示したいUIのuxmlのパス]"));
-            var tab2Content = new TabContent2(AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("[Tab2で表示したいUIのuxml]のパス"));
+            var tab1Content = new TabContentBase(AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("[Tab1で表示したいUIのuxmlのパス]"));
+            var tab2Content = new TabContentBase(AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("[Tab2で表示したいUIのuxml]のパス"));
             tabView.AddTab("Tab1", tab1Content);
             tabView.AddTab("Tab2", tab2Content);
 
