@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Sandbox/UIToolkit/TestButton.uss?fileID=7433441132597879392&amp;guid=72c5393188a0da94ebadf8c13dc0fdf9&amp;type=3#TestButton" />
+    <ui:VisualElement name="Content" style="flex-direction: row;">
+        <ui:Label text="Tab2の中身です" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>

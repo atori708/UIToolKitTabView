@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UIToolkit/TabItem.uss?fileID=7433441132597879392&amp;guid=72c5393188a0da94ebadf8c13dc0fdf9&amp;type=3#TabItem" />
+    <ui:VisualElement name="Content" style="flex-direction: column; flex-grow: 1;">
+        <ui:Label text="Tab1の中身です" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>

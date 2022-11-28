@@ -1,0 +1,33 @@
+.tab-item-view {
+    background-color: rgb(48, 48, 48);
+    color: rgb(115, 115, 115);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-text-align: middle-center
+    transition-property: scale, background-color;
+    transition-duration: 0.15s, 0.15s;
+}
+
+.tab-item-view:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+}
+
+.tab-item-view:active {
+    scale: 0.95 0.95;
+}
+
+.tab-item-view_select {
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+}
