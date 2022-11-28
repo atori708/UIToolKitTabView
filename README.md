@@ -7,7 +7,7 @@ UIToolKitの練習として、タブを実装してみたサンプルです。
 ![TabViewサンプル](https://user-images.githubusercontent.com/6129556/204310686-b9b28e6b-0f14-48a1-974f-f0d16c7fca1f.gif)
 
 用意するアセットとして以下のuxmlファイルが必要です。
-- TabViewを追加したuxml
+- TabViewを追加して、かつTabItem.ussを適用したuxml
 - 各タブで表示したいコンテンツのuxml
 
 ## コード
